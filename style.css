@@ -64,29 +64,20 @@ header .btn:hover {
 	color: #ff0000;
 }
 
+.info {
+	text-align: center;
+	background: #111;
+	color: green;
+}
+
+.update-logs {
+	padding: 40px 0;
+	text-align: center;
+	color: white;
+}
+
 footer {
 	text-align: center;
 	padding: 20px 0;
 	background: #111;
-}
-
-/* Kar taneleri */
-.snowflake {
-	position: absolute;
-	top: -10px;
-	color: #white;
-	font-size: 12px;
-	animation: fall linear infinite;
-	opacity: 0.9;
-}
-
-@keyframes fall {
-	0% {
-		transform: translateY(0);
-		opacity: 1;
-	}
-	100% {
-		transform: translateY(100vh);
-		opacity: 0;
-	}
 }
